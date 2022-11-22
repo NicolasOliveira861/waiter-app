@@ -92,4 +92,4 @@ Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contr
 
 This project is under license. See the file [LICENSE](https://github.com/NicolasOliveira861/waiter-app/blob/main/LICENSE) for more details.
 
-[⬆ Back to top](#waiter-app)<br>
+[⬆ Back to top](#waiter-app---front-end)<br>
