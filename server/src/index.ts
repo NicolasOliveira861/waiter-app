@@ -1,3 +1,4 @@
+import path from 'node:path';
 import express, { json } from 'express';
 import mongoose from 'mongoose';
 import { router } from './routes';
@@ -8,6 +9,10 @@ mongoose
     const app = express();
     const port = 3001;
 
+    app.use(
+      '/assets',
+      express.static(path.resolve(__dirname, '..', 'uploads'))
+    );
     app.use(json());
     app.use(router);
 

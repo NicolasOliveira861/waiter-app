@@ -6,7 +6,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && yarn start",
+    "start": "node dist",
     "dev": "nodemon src/index.ts"
   },
   "devDependencies": {
